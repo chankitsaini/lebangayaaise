@@ -12,61 +12,61 @@ type Chapter = {
 // Replace these details and image paths with your own memories.
 const chapters: Chapter[] = [
   {
-    tag: "Chapter 01",
+    tag: "   01",
     image: "/images/chapter1.jpg",
     imageAlt: "A favorite photo from the day we first met",
-    title: "The day our paths crossed",
-    text: "I still remember that first conversation—the easy laugh, the little pause before goodbye, and the feeling that I wanted just five more minutes. I didn't know what was beginning yet. I only knew the day felt brighter after meeting you.",
+    title: "The Unexpected Hello",
+    text: "It all started when he came up to me and asked for my Instagram. Somehow, that little moment became the beginning of our conversations. What started with a simple request turned into us talking, laughing, and slowly getting to know each other. I didn't know it then, but that small “hello” was about to become a really special part of my story.",
   },
   {
     tag: "Chapter 02",
     image: "/images/chapter2.jpg",
     imageAlt: "A sweet memory from when we were getting to know each other",
-    title: "Little by little",
-    text: "Then came the long talks, the tiny discoveries, and the messages that made ordinary afternoons feel special. I learned how you take your coffee, what makes you laugh without trying, and how comfortable silence can be with the right person.",
+    title: "From Strangers to Friends",
+    text: "After talking for a while, we finally met. There was something surprisingly easy about being around each other. We clicked, laughed, and just enjoyed each other's company. Before anything else, we became friends - the kind where conversations never really seem to end and spending time together feels effortless.",
   },
   {
     tag: "Chapter 03",
     image: "/images/chapter3.jpg",
     imageAlt: "A photo from our first adventure together",
-    title: "Our first adventure",
-    text: "We had a loose plan and absolutely no idea where the day would take us. Somehow, even the wrong turn became part of the fun. That was when I realized adventures aren't really about the place—they're about who is beside you.",
+    title: "First Meet, First Drive",
+    text: "We had a loose plan and absolutely no idea where the day would take us. Somehow, even the wrong turn became part of the fun. That was when I realized adventures aren't really about the place, they're about who is beside you.",
   },
   {
     tag: "Chapter 04",
     image: "/images/chapter4.jpg",
     imageAlt: "A funny candid photo from one of our favorite memories",
-    title: "The moments we still laugh about",
-    text: "Some of my favorite memories are the ones that went completely off-script: the terrible photo, the joke no one else understands, the time we laughed until we couldn't speak. Life with you has the best outtakes.",
+    title: "Sunflowers & Playful Days",
+    text: "Somewhere along the way, our friendship became filled with little adventures and even sweeter memories. We tried paddle tennis together for the first time, turning a simple match into endless laughs, playful competition, and lots of fun. And then there were the sunflowers ,  bright, cheerful, and somehow perfectly me. 🌻",
   },
   {
     tag: "Chapter 05",
     image: "/images/chapter5.jpg",
     imageAlt: "A meaningful photo that reminds us how close we have grown",
-    title: "Becoming our own little team",
+    title: "Just Flowing With Life",
     text: "Somewhere between the big days and the quiet ones, you became the person I wanted to tell everything to. We learned how to cheer each other on, how to listen, and how to make even a regular Tuesday feel like home.",
   },
   {
     tag: "Chapter 06",
     image: "/images/chapter6.jpg",
     imageAlt: "A hopeful photo representing the future we imagine together",
-    title: "All the chapters still ahead",
-    text: "I don't know every detail of what comes next, but I know what I hope for: more slow mornings, more ridiculous jokes, more places to discover, and more ordinary days made wonderful because they're ours. This story is only getting started.",
+    title: "Cozy Pandas & Future Funtimes",
+    text: "Behind all the fun, adventures, and craziness, there is a really soft and comfortable side to us. From laughing over the smallest things to ending the day curled up together like two cozy pandas, it's the little moments that make everything feel special. We started as two people who simply began talking after he asked for my Instagram, became friends, and somehow created so many memories together. And honestly, I think this story still has plenty of chapters left to write.",
   },
 ];
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Our Little Love Story" },
+      { title: "Our Story ☼ From My Side" },
       {
         name: "description",
-        content: "A warm, personal love story told through six treasured chapters.",
+        content: "",
       },
       { property: "og:title", content: "Our Little Love Story" },
       {
         property: "og:description",
-        content: "A warm, personal love story told through six treasured chapters.",
+        content: "",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -123,9 +123,9 @@ function Index() {
       <header className="story-header">
         <a className="story-logo" href="#story" aria-label="Our Little Love Story, return to the story">
           <span className="logo-heart" aria-hidden="true">♥</span>
-          Our Little Love Story
+          Our Story ☼ From My Side
         </a>
-        <p>made with love, just for you <span aria-hidden="true">☀</span></p>
+        <p>we are just friends! <span aria-hidden="true">☀</span></p>
       </header>
 
       <main id="story" className="story-stage">
