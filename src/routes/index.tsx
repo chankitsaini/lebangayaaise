@@ -196,7 +196,7 @@ function Index() {
       </main>
 
       <footer className="story-footer">
-        <p>Every page is better with you in it <span aria-hidden="true">♥</span></p>
+        <p>we are just friends <span aria-hidden="true">♥</span></p>
       </footer>
     </div>
   );
